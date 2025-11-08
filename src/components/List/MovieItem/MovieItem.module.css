@@ -1,0 +1,48 @@
+.movieItem {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #fdfdfd;
+    border: 1px solid #eee;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.poster {
+    width: 40px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.title {
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.year {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.watchedButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #aaa;
+    font-size: 1.2rem;
+    padding: 0.25rem;
+}
+
+.watchedButton:hover {
+    color: #28a745;
+}

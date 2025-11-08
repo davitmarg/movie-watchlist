@@ -1,0 +1,27 @@
+.list {
+    padding: 1rem;
+    margin-bottom: 80px;
+}
+
+.name {
+    text-align: center;
+    color: #333;
+}
+
+.movieContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.emptyMovies {
+    color: #999;
+    text-align: center;
+    font-style: italic;
+    padding: 2rem;
+}
